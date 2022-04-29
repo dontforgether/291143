@@ -33,7 +33,7 @@ p {
 #textos {
   /* background-color: blue; */
   margin-top: 50px;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 #minip {
@@ -319,4 +319,30 @@ footer {
  footer{
    display: none;
  }
+}
+
+
+@media only screen and (max-width: 1366px) {
+
+  body{
+    
+    background-size: cover;
+  }
+
+  #textos {
+    /* background-color: blue; */
+    margin-top: 7%;
+    padding-bottom: 5%;
+    padding-top: 5px;
+  
+  }
+
+  #minip {
+    margin-bottom: 9%;
+  }
+
+  footer{
+    padding: 22px;
+  }
+
 }
