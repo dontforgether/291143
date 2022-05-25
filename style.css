@@ -346,18 +346,3 @@ footer {
   }
 
 }
-
-@media only screen and (max-width: 1920px) {
-
-  #textos {
-    /* background-color: blue; */
-    margin-top: 10%;
-    padding-bottom: 8.6%;
-    padding-top: 80px;
-  }
-
- #minip {
-    margin-bottom: 9%;
-  }
-
-}
