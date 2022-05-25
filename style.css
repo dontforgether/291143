@@ -18,7 +18,7 @@
 }
 
 body {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/stitch.gif);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/bate.gif);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -30,319 +30,170 @@ p {
 }
 
 
-#textos {
-  /* background-color: blue; */
-  margin-top: 50px;
-  padding-top: 80px;
-}
-
-#minip {
-  margin-top: 50px;
-
-  text-align: center;
-  font-size: 20px;
-
-  margin-bottom: 116px;
-}
-
-#box_declara {
-  /* background-color: rgb(14, 8, 8); */
+section {
+  height: 100vh; 
 }
 
 #box_291 {
-  /* background-color: white; */
+
+margin-bottom: 10px;
+font-size: 30px;
+text-align: center;
+
+/* background-color: blue; */
+/* padding: 15px 500px 15px 500px; */
 
 }
 
-/* Box para 291 */
-#box_291>h2 {
-  font-size: 100px;
-  text-align: center;
-
-  margin-bottom: 0px;
-  padding: 0px;
+#box_291 > h2 {
+font-size: 70px;
 }
 
-#box_291>p {
-  font-size: 28px;
-  text-align: center;
-}
-
-/* Fim box para 291 */
-
-/* box declara */
-
-#box_declara>p {
-  font-size: 28px;
-  text-align: center;
-
-  margin-top: 25px;
-  width: 400px;
-}
-
-#appear {
-  display: none;
-}
-
-
-footer {
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 18px;
-  padding: 17.7px;
-
-/* 
+#box_291 > p {
+  font-size: 30px;
   width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0; */
-}
-
-@media only screen and (max-width: 360px) {
-
-  /* S8+ */
-
-  body {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.801) 16.67%, rgba(0, 0, 0, 0.829) 55.73%, rgba(0, 0, 0, 0.863) 90.62%), url(./img/linha.png);
-    background-size: cover;
-    width: 360px;
   }
 
-  #textos {
+  input{
+    margin-top: 15px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 20px;
 
-    /* background-color: red;  */
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
 
-    margin: 15px;
-    padding: 0px;
+    color: black;
+
+    background-color: rgb(0, 217, 255);
   }
 
-  #minip {
-    /* background-color: aqua; */
+  input:hover{
+    background-color: rgb(0, 159, 187);
+  }
 
-    margin-top: 120px;
-
+  #stitch_cry{
     text-align: center;
-    font-size: 20px;
-
-    width: 50%;
+    width: 20%;
   }
 
-  #box_291>h2 {
-    font-size: 80px;
-    text-align: center;
-
-    margin-bottom: 0px;
-    padding: 0;
-  }
-
-  #box_291>p {
-    font-size: 20px;
-    text-align: center;
-
-    margin-bottom: 100px;
-  }
-
-  #box_declara>p {
-    /* background-color: green; */
-
-    font-size: 25px;
-    text-align: center;
-
-    width: 250px;
-
-    margin-left: 0px;
-    margin-top: 25px;
+  #cry {
+    padding: 5px;
+    width: 150px;
   }
 
 
-  #appear {
-    display: inline;
+  @media only screen and (max-width: 360px) {
+
+    body{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/hands.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 60%;
+
+    }
+    .flex{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    section {
+      height: 100%; 
+    }
+
+    #box_291{
+      padding-bottom: 70px;
+    }
+
+
+
 
   }
 
-  #desculpa {
-    /* background-color: red; */
-  }
+  @media only screen and (max-width: 600px) {
 
-  #desculpa>p {
-    padding-top: 20px;
+    body{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/hands.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 60%;
+    }
 
-    text-align: center;
-    font-size: 25px;
-    width: 200px;
-  }
+    section {
+      height: 100%; 
+    }
 
-
-  footer {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-
-
-  body {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.801) 16.67%, rgba(0, 0, 0, 0.829) 55.73%, rgba(0, 0, 0, 0.863) 90.62%), url(./img/linha.png);
-    background-size: cover;
-    background-position-x: 50%;
-    width: 360px;
-  }
-
-  #textos {
-
-    /* background-color: red;  */
-    display: grid;
-    justify-content: center;
-    align-items: center;
-
-    margin: 15px;
-    padding: 0px;
-  }
-
-  #minip {
-    /* background-color: aqua; */
-
-    margin-top: 120px;
-
-    text-align: center;
-    font-size: 20px;
-
-    width: 50%;
-  }
-
-  #box_291>h2 {
-    font-size: 80px;
-    text-align: center;
-
-    margin-bottom: 0px;
-    padding: 0;
-
-  }
-
-  #box_291>p {
-    font-size: 20px;
-    text-align: center;
-
-    margin-bottom: 100px;
-  }
-
-  #box_declara>p {
-    /* background-color: green; */
-
-    font-size: 25px;
-    text-align: center;
-
-    width: 250px;
-
-    margin-left: 0px;
-    margin-top: 25px;
-
-  }
-
-  #appear {
-    display: inline;
-
-  }
-
-  #desculpa {
-    /* background-color: red; */
-  }
-
-  #desculpa>p {
-    padding-top: 20px;
-
-    text-align: center;
-    font-size: 25px;
-    width: 200px;
-  }
+    .flex{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
 
 
-  footer {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1280px) {
-
-  #textos {
-    /* background-color: blue; */
-    margin-top: 15%;
-    padding-bottom: 20%;
-    padding-top: 80px;
-  
-  }
-
-}
-
-@media only screen and (max-width: 768px) {
 
 
-  body {
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-    background-position-x: 40%;
-
-  }
-
-  #textos {
-    /* background-color: blue; */
-    margin-top: 25%;
-    padding-bottom: 40%;
-    padding-top: 80px;
-  }
-
-  #minip{
-    width: 78%;
-  }
-
-}
-
-@media only screen and (max-width: 739px) {
-
-  body {
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-    background-position-x: 40%;
-
-  }
-
-  .flex{
-    display: grid;
-  }
-
- footer{
-   display: none;
- }
-}
 
 
-@media only screen and (max-width: 1366px) {
 
-  body{
     
-    background-size: cover;
+    #stitch_cry{
+      text-align: center;
+      width: 60%;
+    }
+
+    #stitch_cry > p {
+      font-size: 20px;
+    }
+
+    #cry {
+      padding: 5px;
+      width: 200px;
+    }
+
+
   }
 
-  #textos {
-    /* background-color: blue; */
-    margin-top: 7%;
-    padding-bottom: 5%;
-    padding-top: 5px;
-  
-  }
+  @media only screen and (max-width: 739px) {
 
-  #minip {
-    margin-bottom: 9%;
-  }
+    body{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/hands.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 60%;
+    }
 
-  footer{
-    padding: 22px;
-  }
+    section {
+      height: 100%; 
+    }
 
-}
+    .flex{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #box_291{
+      margin-bottom: 10px;
+    }
+
+    #stitch_cry{
+      text-align: center;
+      width: 60%;
+      padding-bottom: 50px;
+    }
+
+    #stitch_cry > p {
+      font-size: 30px;
+    }
+
+    #cry {
+      padding: 5px;
+      width: 250px;
+    }
+  }
