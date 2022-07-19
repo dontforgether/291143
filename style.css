@@ -18,7 +18,7 @@
 }
 
 body {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/stitch.gif);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.795) 16.67%, rgba(0, 0, 0, 0.767) 55.73%, rgba(0, 0, 0, 0.829) 90.62%), url(./img/space.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -53,7 +53,8 @@ padding-bottom: 0%;
 }
 
 #box_291 > p {
-  font-size: 40px;
+  font-size: 30px;
+  /* background-color: green; */
   width: 100%;
   }
 
@@ -124,19 +125,11 @@ padding-bottom: 0%;
 
     #box_291{
       padding-bottom: 20px;
-    }
+      width: 100%;
+      /* background-color: blue; */
 
-    #stitch_cry{
-      text-align: center;
-      width: 1%;
-      /* background-color: red; */
+  
     }
-
-    #cry {
-      padding: 5px;
-      width: 150px;
-    }
-
 
   }
 
@@ -166,6 +159,13 @@ padding-bottom: 0%;
       text-align: center;
     }
 
+    #box_291 > p{
+      font-size: 30px;
+      width: 70%;
+
+      /* background-color: rgb(255, 0, 0); */
+    }
+
     #stitch_cry{
       text-align: center;
       width: 75%;
@@ -174,7 +174,7 @@ padding-bottom: 0%;
     }
 
     #stitch_cry > p {
-      font-size: 20px;
+      font-size: 10px;
     }
 
     #cry {
@@ -209,6 +209,8 @@ padding-bottom: 0%;
     #box_291{
     margin-top: 100px ;
       margin-bottom: 100px;
+
+      /* background-color: pink; */
     }
 
     #box_291 > h2{
@@ -217,9 +219,15 @@ padding-bottom: 0%;
 
     #box_291 > p{
       font-size: 30px;
-      width: 60%;
+      width: 70%;
+
+      /* background-color: rgb(255, 0, 0); */
     }
 
+    #box_291 > #desc2{
+      width: 80%;
+     
+    }
     #stitch_cry{
       text-align: center;
       padding-bottom: 50px;
@@ -234,6 +242,8 @@ padding-bottom: 0%;
       padding: 5px;
       width: 250px;
     }
+
+    
   }
 
   @media only screen and (max-width: 1366px) {
@@ -243,7 +253,7 @@ padding-bottom: 0%;
     }
 
     #box_291 > p{
-      font-size: 30px;
+      font-size: 32px;
     }
 
     #stitch_cry > p {
