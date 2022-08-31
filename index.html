@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>291 143 - Forever</title>
-    <link rel="stylesheet" href="style.css" />
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>291 143 - Love u, Forever!</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./img/heart.png" />
-  </head>
-  <body>
-    <section class="wrapper flex" id="textos">
-      <div id="box_291">
-        <p>Eu ainda te amo muito, me perdoa.</p>
-        <div>
-        <blockquote class="twitter-tweet"  data-lang="pt" data-dnt="true" data-theme="dark"><p lang="pt" dir="ltr">&quot;Eu te amo, mil milhões&quot;</p>&mdash; M E N S A G E N S (@ofcmensagens) <a href="https://twitter.com/ofcmensagens/status/1520478341458976768?ref_src=twsrc%5Etfw">30 de abril de 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-        <p id="desc2">Por favor, não se apaixone por outra pessoa 😟 </p>
-      </div>
-      
-    </section>
-  </body>
+    <script src="https://kit.fontawesome.com/480df2b406.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="wrapper">
+        <div class="flex" id="texto">
+            <h1> Vou te amar em todos universos <br> Te amo até o infinito, minha gatinha comunista.</br> </h1>
+        </div>
+            <!-- Áudio do botão -->
+            <audio id="myAudio">
+                <source src="./audio/mil milhões.mp3" type="audio/mpeg">
+              </audio>
+              <script>
+                  var x = document.getElementById("myAudio");
+                  function playAudio() {
+                      x.play();
+                  }
+              </script>
+              <!-- fim do áudio do botão -->
+              <div id="botão" class="flex" >
+                <button onclick="playAudio()" href="#"><i class="fa-solid fa-play"></i></button>
+        </div>
+    </main>
+</body>
+
 </html>
