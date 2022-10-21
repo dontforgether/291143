@@ -14,7 +14,8 @@
 }
 
 body { 
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.746), rgba(0, 0, 0, 0.808)), url(img/space.gif);    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.746), rgba(0, 0, 0, 0.808)), url(img/kaR01Dz.gif);    
+    background-position: 106% -35vh;
     background-size: cover;
     min-height: 100vh;
     overflow: hidden;
@@ -126,7 +127,12 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
 
+    body { 
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.746), rgba(0, 0, 0, 0.808)), url(img/fp\ mobile.gif);    
+        background-position: center -11vh;
+    }
 
+    
     #texto{
         /* background-color: pink; */
         
