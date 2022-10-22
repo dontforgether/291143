@@ -195,7 +195,8 @@ button:hover {
 
     #texto > h1{
         font-size: 25px;
-        width: 80%;
+        width: 85%;
+        background-color: red;
     }
     
 }
