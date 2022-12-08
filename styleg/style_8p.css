@@ -1,95 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-
-.wrapper{
-    width: 90%;
-    max-width: 1440px;
-    margin: 0 auto;
-   
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-body { 
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.746), rgba(0, 0, 0, 0.808)), url(img/space.gif);    
-    background-position: 100% -35vh;
-    background-size: cover;
-    min-height: 100vh;
-    overflow: hidden;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-#textoi{
+#texto{
     /* background-color: pink; */
-    /* overflow: hidden; */
 
-    margin-top: 50vh;
-    width: 100%;
-    margin-top: 120px;
-    
+    width: 50%;
+    /* Centralizar texto */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centralizar texto */
 
     text-align: center;
 }
-
-#texto2{
-    /* background-color: pink; */
-    /* overflow: hidden; */
-
-    margin-left: 30%;
-    margin-bottom: 10px;
-
-    width: 40%;
-    text-align: center;
-}
-
-a {
-    color: inherit;  
-    text-decoration: none;
-}
-
-h1 {
-    font-family: 'Boogaloo';
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    margin-bottom: 9px;
-    text-shadow: 2px 2px 18px black;
-}
-
-a {
-
-    background-color: #d32525;
-    
-    color: white;
-    text-align: center;
-
-    padding: 10px 50px;
-    border: none;
-    cursor: pointer;
-    
-    font-family: 'Boogaloo';
-    font-weight: 100;
-
-    font-size: 14px;
-    border-radius: 15px;
-
-
-}
-
-a:hover {
-    background-color: seashell;
-    color:rgb(0, 0, 0);
-    transition-duration: 0.5s;
-}
-
 
 /* //Telas 1080p */
 /* //Telas monitor */
@@ -97,14 +16,23 @@ a:hover {
 @media only screen and (max-width: 1920px) {
 
 
-    #textoi{
+    #texto{
         /* background-color: pink; */
-        margin-top: 45vh;
+        
+        margin-top: 38vh;
         width: 100%;
+        /* background-color: red; */
+    
+        
+        /* Centralizar texto */
+        margin-left: auto;
+        margin-right: auto;
+        /* Centralizar texto */
+    
         text-align: center;
     }
 
-    #textoi > h1{
+    #texto > h1{
         font-size: 35px;
         width: 80%;
     }
@@ -134,15 +62,16 @@ a:hover {
 @media only screen and (max-width: 1366px) {
 
 
-    #textoi{
+    #texto{
         /* background-color: pink; */
         
-        margin-top: 42vh;
-        width: 100%;
+        margin-top: 30vh;
+        width: 57%;
+        /* margin-top: 35vh; */
         text-align: center;
     }
 
-    #textoi > h1{
+    #texto > h1{
         font-size: 35px;
         width: 80%;
     }
@@ -176,15 +105,18 @@ a:hover {
     }
 
     
-    #textoi{
+    #texto{
         /* background-color: pink; */
         
-        margin-top: 40vh;
-        width: 100%;
+        margin-top: 32vh;
+        width: 72%;
+        /* margin-top: 40vh; */
+        
+    
         text-align: center;
     }
 
-    #textoi > h1{
+    #texto > h1{
         font-size: 28px;
         width: 80%;
     }
@@ -212,15 +144,18 @@ a:hover {
 @media only screen and (max-width: 415px) {
 
 
-    #textoi{
+    #texto{
         /* background-color: pink; */
         
     
         width: 100%;
+        margin-top: 32vh;
+        
+    
         text-align: center;
     }
 
-    #textoi > h1{
+    #texto > h1{
         font-size: 25px;
         width: 80%;
     }
@@ -249,23 +184,26 @@ a:hover {
 @media only screen and (max-width: 375px) {
 
 
-    #textoi{
+    #texto{
         /* background-color: pink; */
         
-        margin-top: 30vh;
+        margin-top: 25vh;
         width: 100%;
+        /* margin-top: 37vh; */
+        
+    
         text-align: center;
     }
 
-    #textoi > h1{
+    #texto > h1{
         font-size: 25px;
-        width: 60%;
+        width: 85%;
         /* background-color: red; */
     }
     
     #texto2 {
         margin: auto;
-        width: 86%;
+        width: 100%;
 
         margin-top: 5px;
         margin-bottom: 15px;
